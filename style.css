@@ -650,19 +650,19 @@ button {
 .work-one {
     background:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("../images/Resto.png") center / cover no-repeat;
+        url("Resto.png") center / cover no-repeat;
 }
 
 .work-two {
     background:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("../images/Store.png") center / cover no-repeat;
+        url("Store.png") center / cover no-repeat;
 }
 
 .work-three {
     background:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("../images/Portofolio.png") center / cover no-repeat;
+        url("Portofolio.png") center / cover no-repeat;
 }
 
 .work-image::after {    
