@@ -13,8 +13,8 @@
     --muted: #777;
     --dim: #444;
 
-    --purple: #8b5cf6;
-    --purple-light: #b197fc;
+    --purple: #c9a45c;
+    --purple-light: #e3c77e;
 
     --line: rgba(255, 255, 255, 0.09);
     --container: 1200px;
@@ -383,7 +383,7 @@ button {
     height: 170px;
     top: -80px;
     right: -60px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.5), transparent 70%);
+    background: radial-gradient(circle, rgba(201, 164, 92, 0.5), transparent 70%);
     filter: blur(20px);
 }
 
@@ -392,7 +392,7 @@ button {
     height: 220px;
     bottom: -100px;
     left: -100px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.25), transparent 70%);
+    background: radial-gradient(circle, rgba(201, 164, 92, 0.25), transparent 70%);
     filter: blur(35px);
 }
 
@@ -774,7 +774,7 @@ button {
 
 .pricing-card:hover {
     padding-left: 45px;
-    background: rgba(139, 92, 246, 0.045);
+    background: rgba(201, 164, 92, 0.045);
 }
 
 .package-number {
@@ -819,7 +819,7 @@ button {
 }
 
 .featured-price {
-    background: rgba(139, 92, 246, 0.035);
+    background: rgba(201, 164, 92, 0.035);
 }
 
 .popular-label {
@@ -908,7 +908,7 @@ button {
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.15), transparent 65%);
+    background: radial-gradient(circle, rgba(201, 164, 92, 0.15), transparent 65%);
     filter: blur(20px);
 }
 
@@ -1272,13 +1272,13 @@ footer > div:last-child {
 
 /* Mengubah warna 3 huruf terakhir (D, E, V) pada loader */
 .loader-inner span:nth-child(-n+4) {
-    color: #b197fc; /* Ganti dengan kode warna yang kamu mau */
+    color: #e3c77e; /* Ganti dengan kode warna yang kamu mau */
 }
 
 /* ===== CUSTOM SCROLLBAR ===== */
 html {
     scrollbar-width: thin;                       /* Firefox */
-    scrollbar-color: #8b5cf6 #070707;
+    scrollbar-color: #c9a45c #070707;
 }
 
 ::-webkit-scrollbar {
@@ -1291,17 +1291,17 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #8b5cf6, #b197fc);
+    background: linear-gradient(180deg, #c9a45c, #e3c77e);
     border-radius: 10px;
     border: 2px solid #070707;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #b197fc;
+    background: #e3c77e;
 }
 
 ::selection {
-    background: #8b5cf6;
+    background: #c9a45c;
     color: #fff;
 }
 
@@ -1312,8 +1312,8 @@ html {
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, #8b5cf6, #b197fc);
-    box-shadow: 0 0 12px rgba(139, 92, 246, 0.8);
+    background: linear-gradient(90deg, #c9a45c, #e3c77e);
+    box-shadow: 0 0 12px rgba(201, 164, 92, 0.8);
     transform: scaleX(0);
     transform-origin: left;
     z-index: 100000;
@@ -1326,15 +1326,15 @@ html {
 }
 
 .work-card:hover {
-    border-color: rgba(177, 151, 252, 0.5);
-    box-shadow: 0 30px 80px rgba(139, 92, 246, 0.2);
+    border-color: rgba(227, 199, 126, 0.5);
+    box-shadow: 0 30px 80px rgba(201, 164, 92, 0.2);
 }
 .service-panel {
     transition: border-color 0.4s ease;
 }
 
 .service-panel:hover {
-    border-color: rgba(177, 151, 252, 0.45);
+    border-color: rgba(227, 199, 126, 0.45);
 }
 
 .nav-cta,
@@ -1357,3 +1357,16 @@ html {
     * { animation: none !important; transition: none !important; }
 }
 
+
+
+/* ILVORA brand palette: premium black & gold */
+:root { --purple: #c9a45c; --purple-light: #e3c77e; }
+.navbar .logo span, footer .logo span { color: #c9a45c; }
+.logo-by { color: #c9a45c; }
+.nav-cta { border: 1px solid rgba(201,164,92,.55); }
+.primary-button { background: linear-gradient(135deg,#e3c77e,#b88a36); color: #080808; }
+.service-panel:hover, .work-card:hover { border-color: rgba(201,164,92,.45); }
+.featured-price { background: linear-gradient(90deg,rgba(201,164,92,.09),transparent 75%); }
+.popular-label { background: linear-gradient(135deg,#e3c77e,#a77b2b); color: #080808; }
+.contact-background { background: radial-gradient(circle,rgba(201,164,92,.14),transparent 65%); }
+.contact-button { background: linear-gradient(135deg,#e3c77e,#b88a36); color:#080808; }
